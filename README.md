@@ -8,18 +8,19 @@ This project presents a comprehensive example of a Flask environment that calls 
 
 1. Clone the repository:
 git clone https://github.com/yourusername/your-repo-name.git
+
 cd your-repo-name
 
-2. Create a virtual environment:
+3. Create a virtual environment:
 python -m venv claude-env
 
-3. Activate the environment:
+4. Activate the environment:
 source claude-env/bin/activate
 
-4. Install dependencies:
+5. Install dependencies:
 pip install -r requirements.txt
 
-5. Set up your API key as an environment variable:
+6. Set up your API key as an environment variable:
 export ANTHROPIC_API_KEY='your-api-key-here'
 
 ## Usage
