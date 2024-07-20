@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'GT Walsheim Pro Bold';
+    src: url('gtwalsheimpro-bold-webfont.woff2') format('woff2'),
+         url('gtwalsheimpro-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro Light';
+    src: url('gtwalsheimpro-light-webfont.woff2') format('woff2'),
+         url('gtwalsheimpro-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro Condensed Light';
+    src: url('gtwalsheimpro-condensedlight-webfont.woff2') format('woff2'),
+         url('gtwalsheimpro-condensedlight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro Condensed Medium';
+    src: url('gtwalsheimpro-condensedmedium-webfont.woff2') format('woff2'),
+         url('gtwalsheimpro-condensedmedium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Playfair Display Regular';
+    src: url('playfairdisplay-regular-webfont.woff2') format('woff2'),
+         url('playfairdisplay-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Playfair Display Bold';
+    src: url('playfairdisplay-bold-webfont.woff2') format('woff2'),
+         url('playfairdisplay-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

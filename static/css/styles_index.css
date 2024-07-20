@@ -1,0 +1,408 @@
+/* Homepage */
+
+.homepage-background {
+    background-image: url(../../static/images/bg_crosses.png);
+    height: 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-duration: 800ms;
+}
+
+.homepage-div{
+    padding-top: 38vh;
+}
+
+.home-circle-div {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.gradient-circle {
+    height: 68vw;
+}
+
+.circle-1 {
+    transform: translateX(-40%) translateY(-30%);
+}
+
+.circle-2 {
+    transform: translateX(90%) translateY(20%);
+}
+
+.circle-3 {
+    transform: translateX(0%) translateY(-30%);
+}
+
+.hello-text {
+    font-family: 'GT Walsheim Pro Bold';
+    font-size: 96px;
+    color: #26262C;
+    margin-top: 0;
+}
+
+.hello-p {
+    margin: 0;
+}
+
+.description-text {
+    font-family: 'GT Walsheim Pro Light';
+    font-size: 36px;
+    color: #62626F;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-top: 0;
+    width: 40vw;
+}
+
+
+/* Skills */
+
+.skills-background {
+    background: #F1F4F6;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+    padding-top: 12%;
+    padding-bottom: 10em;
+    transition-duration: 800ms;
+}
+
+.programming-skill-icon {
+    width: 100px;
+    margin-right: 1em;
+}
+
+.programming-skill-title {
+    font-family: 'GT Walsheim Pro Bold';
+    font-size: 70px;
+    color: #26262C;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.programming-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.programming-text {
+    width: 50%;
+}
+
+.skill-paragraph {
+    font-family: 'GT Walsheim Pro Light';
+    font-size: 26px;
+    color: #62626F;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.programming-skills {
+    text-align: center;
+    width: 380px;
+}
+
+.programming-image {
+    width: 380px;
+    margin-top: 26px;
+}
+
+.programming-level {
+    font-family: 'GT Walsheim Pro Bold';
+    font-size: 30px;
+    color: #62626F;
+    margin-bottom: 0;
+}
+
+.electronics-div {
+    margin-bottom: 8em;
+}
+
+.electronics-skill-icon {
+    width: 100px;
+    margin-right: 1em;
+}
+
+.electronics-skill-title {
+    font-family: 'GT Walsheim Pro Bold';
+    font-size: 70px;
+    color: #26262C;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.programming-languages-text {
+    font-family: 'GT Walsheim Pro Light';
+    font-size: 20px;
+    color: #62626F;
+    text-align: center;
+    margin-top: 0;
+}
+
+.secondary-skills {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.secondary-skill {
+    margin-bottom: 10vh;
+    flex-basis: 32%;
+    width: 386px;
+}
+
+.secondary-skill-icon {
+    height: 100px;
+    width: 100px;
+    display: table;
+    margin: 0 auto;
+}
+
+.secondary-skill-title {
+    font-family: 'GT Walsheim Pro Bold';
+    font-size: 50px;
+    color: #26262C;
+    text-align: center;
+    margin: 0;
+    height: 80px;
+    padding-top: 20px;
+}
+
+.secondary-skill-title-two-lines {
+    font-family: 'GT Walsheim Pro Bold';
+    font-size: 50px;
+    color: #26262C;
+    text-align: center;
+    margin: 0;
+    line-height: 1em;
+    height: 100px;
+}
+
+.secondary-skill-text {
+    font-family: 'GT Walsheim Pro Light';
+    font-size: 26px;
+    color: #62626F;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+/* Contact */
+
+.contact-background {
+    background-image: url(../../static/images/bg_crosses.png);
+    height: 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25) inset;
+    transition-duration: 800ms;
+}
+
+.contact-circle-div {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.contactdiv {
+    text-align: center;
+    padding-top: 15vh;
+}
+
+.contact-title {
+    font-family: 'GT Walsheim Pro Bold';
+    font-size: 96px;
+    color: #26262C;
+    margin-top: 0;
+    margin-bottom: 2em;
+}
+
+.contact-text {
+    font-family: 'GT Walsheim Pro Light';
+    font-size: 36px;
+    color: #62626F;
+    margin-bottom: 1vh;
+}
+
+.email-text-div{
+    margin-bottom: 1.4vh;
+}
+
+.email-text{
+    font-family: 'GT Walsheim Pro Bold';
+    font-size: 55px;
+    color: #26262C;
+    text-decoration: none;
+}
+
+
+/* Responsive */
+
+/* Secondary skills & Contact circle*/
+@media (max-width: 1420px) {
+    .secondary-skill {
+      flex-basis: 49%;
+      width: 100%;
+    }
+    .programming-flex {
+        flex-direction: column;
+    }
+    .programming-text {
+        width: 100%;
+    }
+    .programming-skills {
+        width: 100%;
+    }
+}
+
+/* Homepage */
+@media (max-width: 1400px) {
+    .description-text{
+        width: 560px;
+    }
+}
+
+/* Contact & Homepage circles*/
+@media (max-width: 1100px) {
+    .contact-title {
+        margin-bottom: 20vh;
+    }
+    .email-text{
+        font-size: 5vw;
+    }
+    .contact-text {
+        font-size: 4vw;
+    }
+    .gradient-circle {
+        height: 80vw;
+    }
+    .circle-1 {
+        transform: translateX(-50%) translateY(-20%);
+    }
+    .circle-2 {
+        transform: translateX(60%) translateY(50%);
+    }
+}
+
+/* Secondary skills column */
+@media (max-width: 980px) {
+    .electronics-div {
+        margin-bottom: 6em;
+    }
+    .secondary-skills {
+        flex-direction: column;
+    }
+    .secondary-skill-title {
+        height: 50px;
+    }
+    .secondary-skill-title-two-lines {
+        height: 90px;
+    }
+}
+
+/* Contact & Skills */
+@media (max-width : 845px) {
+    .contactdiv {
+        padding-top: 20vh;
+    }
+    .circle-3 {
+        transform: translateX(0%) translateY(-10%);
+    }
+    .skill-paragraph {
+        font-size: 4.5vw;
+    }
+    .secondary-skill-text {
+        font-size: 4.5vw;
+        margin-top: 0;
+    }
+}
+
+/* Programming skill */
+@media (max-width: 815px) {
+    .programming-skill-icon {
+        width: 12.3vw;
+        height: 12.3vw;
+    }
+    .programming-skill-title {
+        font-size: 8.4vw;
+    }
+}
+
+/* Homepage & Contact & Dropdown Menu*/
+@media (max-width: 800px) {
+    .homepage-background {
+        height: 60%;
+    }
+    .home-circle-div {
+        height: 60%;
+    }
+    .homepage-div{
+        padding-top: 20vh;
+    }
+    .description-text{
+        width: 100%;
+        font-size: 19px;
+    }
+    .hello-text{
+        font-size: 46px;
+    }
+    .gradient-circle {
+        height: 90vw;
+    }
+    .circle-1 {
+        transform: translateX(-30%) translateY(0%);
+    }
+    .circle-2 {
+        transform: translateX(50%) translateY(90%);
+    }
+    .circle-3 {
+        transform: translateX(0%) translateY(40%);
+    }
+    .contactdiv {
+        padding-top: 32vh;
+    }
+    .contact-title {
+        font-size: 12vw;
+        margin-bottom: 12vw;
+    }
+}
+
+/* Electronics skill */
+@media (max-width: 695px) {
+    .electronics-skill-icon {
+        width: 14.4vw;
+        height: 14.4vw;
+    }
+    .electronics-skill-title {
+        font-size: 9.8vw;
+    }
+}
+
+/* Programming languages image */
+@media (max-width: 620px) {
+    .programming-image {
+        width: 100%;
+    }
+}
+
+/* Secondary skills titles */
+@media (max-width: 500px) {
+    .secondary-skill-title {
+        font-size: 9.8vw;
+    }
+    .secondary-skill-title-two-lines {
+        font-size: 9.8vw;
+    }
+    .skills-background {
+        padding-bottom: 3em;
+    }
+}

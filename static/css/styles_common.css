@@ -1,0 +1,176 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.debugframe {
+    border-color: red;
+    border-style: solid;
+    border-width: 2px;
+    background-color: #ffcbcb;
+}
+
+.margin-div {
+    margin: auto;
+    width: 70%;
+}
+
+.flex {
+    display: flex;
+}
+
+b{
+    color: #26262C;
+}
+
+
+/* Header */
+
+.header {
+    position: fixed;
+    top: 0;
+    height: 8.6vh;
+    width: 100%;
+    background: #F1F4F6;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+    z-index: 3;
+}
+
+.mobile-navbar {
+    position: fixed;
+    top: 8.6vh;
+    left: 35%;
+    height: 91.4vh;
+    width: 65%;
+    background: #F1F4F6;
+    box-shadow: -4px 0px 16px rgba(0, 0, 0, 0.25);
+    transform: translateX(100%);
+    transition-duration: 800ms;
+    visibility: hidden;
+    z-index: 2;
+}
+
+.header-flex {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 100%;
+    padding-top: 1.9vh;
+}
+
+.header-image {
+    height: 4.3vh;
+    top: 25%;
+    cursor: pointer;
+}
+
+.top-right-image {
+    height: 4.3vh;
+    width: 4.3vh;
+    top: 25%;
+    background-image: url(../../static/images/flags/flag_en.png);
+    background-size: cover;
+    cursor: pointer;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    padding-top: 0.6vh;
+    font-family: 'GT Walsheim Pro Condensed Light';
+}
+
+.tabs > div {
+    width: 25%;
+    text-align: center;
+}
+
+.mobile-tabs {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5vh;
+}
+
+.mobile-tabs > div {
+    margin-bottom: 2vh;
+    text-align: center;
+}
+
+.mobile-flag {
+    height: 4.3vh;
+    width: 4.3vh;
+    background-image: url(../../static/images/flags/flag_en.png);
+    background-size: cover;
+    margin: auto;
+    margin-top: 2vh;
+}
+
+.tab {
+    color: #727272;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.opened {
+    font-family: 'GT Walsheim Pro Condensed Medium';
+}
+
+.closed {
+    font-family: 'GT Walsheim Pro Condensed Light';
+}
+
+
+/* Animations */
+
+.js-hidden{
+    opacity: 0;
+    transform: translateY(-50px);
+    transition-duration: 1s;
+}
+
+.two-s {
+    transition-duration: 2s;
+}
+
+.js-visible {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.error-message {
+    display: none;
+    position: fixed;
+    top: 50px;
+    left: 90%;
+    transform: translateX(-50%);
+    background-color: #b2badbd9;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    border-radius: 5px;
+    z-index: 1000;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    font-family: 'GT Walsheim Pro Condensed Light';
+}
+
+/* Responsive */
+
+@media (max-width: 1000px) {
+    .tabs {
+        width: 70vw;
+    }
+}
+
+@media (max-width: 800px) {
+    .top-right-image {
+        background-image: url(../../static/images/icons/icon_menu.png);
+    }
+    .tabs {
+        visibility: hidden;
+    }
+    .mobile-navbar {
+        visibility: visible;
+    }
+}
