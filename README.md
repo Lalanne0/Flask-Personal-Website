@@ -2,7 +2,7 @@
 
 ## Calling and using Claude's API with custom parameters
 
-This project presents a comprehensive example of a Flask environment that calls Anthropic's API for Claude.
+This project presents a comprehensive example of a Flask environment that calls Anthropic's API for Claude. Detailed results of possible experimentations are presented in the report.pdf file.
 
 ## Installation
 
