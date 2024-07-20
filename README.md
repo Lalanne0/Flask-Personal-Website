@@ -2,14 +2,15 @@
 
 ## Calling and using Claude's API with custom parameters
 
-This project presents a comprehensive example of a Flask environment that calls Anthropic's API for Claude. Detailed results of possible experimentations are presented in the report.pdf file.
+This project presents a comprehensive example of a Flask environment that calls Anthropic's API for Claude. Detailed results of possible experimentations are presented in the `report.pdf` file.
 
 ## Installation
 
 1. Clone the repository:
-git clone https://github.com/yourusername/your-repo-name.git
+git clone https://github.com/Lalanne0/Flask-Personal-Website.git
 
-cd your-repo-name
+2. Set the terminal in the repository:
+cd Flask-Personal-Website
 
 3. Create a virtual environment:
 python -m venv claude-env
