@@ -2,33 +2,54 @@
 
 ## Calling and using Claude's API with custom parameters
 
-This project presents a comprehensive example of a Flask environment that calls Anthropic's API for Claude. Detailed results of possible experimentations are presented in the `report.pdf` file.
+This project presents a comprehensive example of a Flask environment that uses some AI tools. It calls Anthropic's API for Claude, and creates several models on the Titanic dataset. Detailed results of possible experimentations with Claude's API are presented in the `report.pdf` file.
 
 ## Installation
 
 1. Clone the repository:
-`git clone https://github.com/Lalanne0/Flask-Personal-Website.git`
+```bash
+git clone https://github.com/Lalanne0/Flask-Personal-Website.git
+```
 
 2. Set the terminal in the repository:
-`cd Flask-Personal-Website`
+```bash
+cd Flask-Personal-Website
+```
 
 3. Create a virtual environment:
-`python -m venv claude-env`
+```bash
+python -m venv env
+```
 
 4. Activate the environment:
-`source claude-env/bin/activate`
+```bash
+source env/bin/activate  # On Windows use `env\Scripts\activate`
+```
 
 5. Install dependencies:
-`pip install -r requirements.txt`
+```bash
+pip install -r requirements.txt
+```
 
-6. Set up your API key as an environment variable:
-`export ANTHROPIC_API_KEY='your-api-key-here'`
+6. If you want to use Claude's API, set up your API key as an environment variable:
+```bash
+export ANTHROPIC_API_KEY='your-api-key-here'  # On Windows use `setx ANTHROPIC_API_KEY "your-api-key-here"`
+```
 
-## Usage
+7. Run the Flask application:
+```bash
+python app.py
+```
 
-Run the Flask application:
-`python app.py`
+This may take a few moments. The app will train several AI models before starting.
 
-Visit `http://localhost:5000` in your web browser.
+8. Visit `http://localhost:5000` in your web browser.
 
+9. When you finished using the platform, deactivate the environment
+```bash
+deactivate
+```
 
+## Acknowledments
+
+This project uses the Titanic dataset available on [Kaggle](https://www.kaggle.com/competitions/titanic/data).

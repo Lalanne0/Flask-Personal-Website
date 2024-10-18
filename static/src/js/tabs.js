@@ -49,6 +49,12 @@ function handleChatClick(){
     dispayTabAsOpened(openedTab);
 }
 
+function handleTitanicClick(){
+    dispayTabAsClosed(openedTab);
+    openedTab = 5;
+    dispayTabAsOpened(openedTab);
+}
+
 function switchBetweenHomeAndContact(){
     var scroll_percentage = (document.documentElement.scrollTop || document.body.scrollTop)/maxScroll;
     if (scroll_percentage < 0.70){ // Top part of the page, Home tab is opened

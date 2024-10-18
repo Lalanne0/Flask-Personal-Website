@@ -28,7 +28,7 @@ function sendMessage() {
     })
     .catch(error => {
         console.error('Error:', error);
-        addMessage('Sorry, there was an error processing your request.', 'bot-message error');
+        addMessage('Sorry, there was an error processing your request. Did you fill in your API key?', 'bot-message error');
     });
 }
 
